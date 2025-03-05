@@ -1,4 +1,9 @@
+# dev
 .DS_Store
-.terraform
-.terraform.lock.hcl
 .vscode
+
+# terraform
+aws-terraform-deploy/*/.terraform.*
+aws-terraform-deploy/*/.terraform/
+aws-terraform-deploy/*/terraform.*
+aws-terraform-deploy/*/tfplan.json
